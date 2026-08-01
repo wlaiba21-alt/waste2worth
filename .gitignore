@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+
+# Build
+dist/
+dist-ssr/
+
+# Environment (never commit secrets)
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Uploads
+backend/uploads/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / IDE
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Misc
+*.local
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
